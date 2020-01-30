@@ -1,0 +1,44 @@
+<section class="hero is-fullheight">
+<div class="drink-aspect-container">
+
+    <h2>Please select your cocktail preferences</h2>
+    <br>
+
+    <form [formGroup]="drinkForm" (ngSubmit)="submit()">
+        <h1 class="drink-title is-uppercase">
+            Liquor
+        </h1>
+        <label formArrayName="liquorArray" *ngFor="let content of drinkForm.controls.liquorArray.controls; let i = index">
+          <input type="checkbox" [formControlName]="i">
+          {{liquorArray[i].type}}
+        </label>
+        <br>
+        <h1 class="drink-title is-uppercase">
+            Mixers
+        </h1>
+        <label formArrayName="mixerArray" *ngFor="let content of drinkForm.controls.mixerArray.controls; let i = index">
+            <input type="checkbox" [formControlName]="i">
+            {{mixerArray[i].type}}
+        </label>
+        <br>
+        <h1 class="drink-title is-uppercase">
+            Garnishes
+        </h1>
+        <label formArrayName="garnishArray" *ngFor="let content of drinkForm.controls.garnishArray.controls; let i = index">
+            <input type="checkbox" [formControlName]="i">
+            {{garnishArray[i].type}}
+        </label>
+        <br>
+        <h1 class="drink-title is-uppercase">
+            Drink Glasses
+        </h1>
+        <label formArrayName="glassArray" *ngFor="let content of drinkForm.controls.glassArray.controls; let i = index">
+            <input type="checkbox" [formControlName]="i">
+            {{glassArray[i].type}}
+        </label>
+        <br>
+        <button class="btn-1"><span>Find my cocktails</span></button>
+    </form>   
+ 
+</div>
+</section>
