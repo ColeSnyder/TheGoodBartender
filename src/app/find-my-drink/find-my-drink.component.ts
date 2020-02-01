@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, FormArray, FormControl } from '@angular/forms';
-import {Router} from '@angular/router';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-find-my-drink',
@@ -8,6 +8,10 @@ import {Router} from '@angular/router';
   styleUrls: ['./find-my-drink.component.css']
 })
 export class FindMyDrinkComponent implements OnInit {
+
+  public checkedArray = {
+    value: ''
+  };
 
   drinkForm: FormGroup;
   // mixerForm: FormGroup;
@@ -67,6 +71,11 @@ export class FindMyDrinkComponent implements OnInit {
 
   submit() {
     this.router.navigate(['/DrinkList']);
+  }
+
+  CheckboxValueCheck(event: any) {
+
+    console.log(event);
   }
 
   ngOnInit() {

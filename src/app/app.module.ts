@@ -12,6 +12,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { FindMyDrinkComponent } from './find-my-drink/find-my-drink.component';
 import { DrinkListComponent } from './drink-list/drink-list.component';
+import { MerchandiseComponent } from './merchandise/merchandise.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { DrinkListComponent } from './drink-list/drink-list.component';
     HeaderComponent,
     FooterComponent,
     FindMyDrinkComponent,
-    DrinkListComponent
+    DrinkListComponent,
+    MerchandiseComponent
   ],
   imports: [
     BrowserModule,

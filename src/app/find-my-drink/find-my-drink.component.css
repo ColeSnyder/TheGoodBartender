@@ -1,17 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins&display=swap);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
 .drink-aspect-container {
     padding-top: 5%;
     padding-left: 10%;
     padding-right: 10%;
 }
 
-@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+.drink-title {
+  font-size: xx-large;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  color: #000000;
+}
+
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 body{
-  font-family: 'PT Sans', sans-serif;
+  /* font-family: 'PT Sans', sans-serif; */
   display: table;
   width: 100%;
   background: #f54785;
@@ -34,6 +45,7 @@ button{
   background: #31B99D;
 }
 span{
+  color: #FFFFFF;
   display: block;
   padding: 25px 80px;
 }
