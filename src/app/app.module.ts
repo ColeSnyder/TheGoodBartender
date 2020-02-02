@@ -14,6 +14,7 @@ import { FindMyDrinkComponent } from './find-my-drink/find-my-drink.component';
 import { DrinkListComponent } from './drink-list/drink-list.component';
 import { MerchandiseComponent } from './merchandise/merchandise.component';
 import { MerchLinkComponent } from './merch-link/merch-link.component';
+import { SingleDrinkComponentComponent } from './single-drink-component/single-drink-component.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { MerchLinkComponent } from './merch-link/merch-link.component';
     FindMyDrinkComponent,
     DrinkListComponent,
     MerchandiseComponent,
-    MerchLinkComponent
+    MerchLinkComponent,
+    SingleDrinkComponentComponent
   ],
   imports: [
     BrowserModule,

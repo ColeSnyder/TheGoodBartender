@@ -75,7 +75,8 @@ export class FindMyDrinkComponent implements OnInit {
 
   CheckboxValueCheck(event: any) {
 
-    console.log(event);
+    console.log(event.target.value);
+
   }
 
   ngOnInit() {
