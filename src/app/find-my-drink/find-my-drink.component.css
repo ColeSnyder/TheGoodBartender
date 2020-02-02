@@ -5,6 +5,7 @@
     padding-top: 5%;
     padding-left: 10%;
     padding-right: 10%;
+    background-color: #f0f0f0;
 }
 
 .drink-title {
@@ -13,6 +14,11 @@
 
 label {
   font-size: large;
+  margin-left: 10px;
+}
+
+label:hover {
+  cursor: pointer;
 }
 
 hr {

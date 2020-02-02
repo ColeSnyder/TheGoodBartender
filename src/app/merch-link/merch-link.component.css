@@ -1,0 +1,16 @@
+.merch-link-banner {
+    width: 100%;
+    background-color: #32B99D;
+    height: 35px;
+    text-align: center;
+    font-size: large;
+}
+
+a {
+    vertical-align: middle;
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: #e8e8e8;
+}

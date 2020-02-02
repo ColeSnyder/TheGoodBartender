@@ -13,6 +13,7 @@ import { FooterComponent } from './footer/footer.component';
 import { FindMyDrinkComponent } from './find-my-drink/find-my-drink.component';
 import { DrinkListComponent } from './drink-list/drink-list.component';
 import { MerchandiseComponent } from './merchandise/merchandise.component';
+import { MerchLinkComponent } from './merch-link/merch-link.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MerchandiseComponent } from './merchandise/merchandise.component';
     FooterComponent,
     FindMyDrinkComponent,
     DrinkListComponent,
-    MerchandiseComponent
+    MerchandiseComponent,
+    MerchLinkComponent
   ],
   imports: [
     BrowserModule,
